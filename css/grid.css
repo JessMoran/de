@@ -29,37 +29,22 @@ body{
   margin: 10px;
 }
 
-.column-1{
-  background: #fce705;
-  width:6.66%
-}
-
-.column-2{
-  background: #bcf904;
-  width:14.99%
-}
-
-.column-3{
-  background: #6fe8c7;
-  width: 23.33%
+#row-b{
+  background: #ef47c0;
 }
 
 .column-4{
   background: #48b5c3;
-  width: 31.66%
-}
-
-.column-5{
-  background: #9d63e2;
-  width: 48.33%
-}
-
-.column-6{
-  background: #ef47c0;
-  width: 98.33%
+  height: 180px;
+  width: calc(33.33% -  20px);
 }
 
 .column-8{
-  background: #ffae00;
-  width: 64.99%;
+  background: #fff;
+  width: calc(66.66%  -  20px);
+}
+
+.column-12{
+  background: #ef47c0;
+  width: calc(100%  -  20px);
 }
